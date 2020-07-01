@@ -1,0 +1,21 @@
+{
+  "name": "node-sequelize",
+  "version": "1.0.0",
+  "description": "Demo using nodejs with postgre and sequelize",
+  "main": "index.js",
+  "author": "Rodrigo Tardelli",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "pg": "^8.2.1",
+    "pg-hstore": "^2.3.3",
+    "sequelize": "^6.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4",
+    "sequelize-cli": "^6.1.0"
+  }
+}
